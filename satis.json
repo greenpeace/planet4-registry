@@ -1,0 +1,14 @@
+{
+	"name": "Greenpeace Planet 4",
+	"homepage": "http://picasso.local/~tobias/Greenpeace/planet4-registry/public/",
+	"repositories": [
+		{ "type": "vcs", "url": "/Users/tobias/Sites/planet4-wordpress" }
+	],
+	"require-all": true,
+	"require-dependencies": true,
+    "require-dev-dependencies": true,
+	"archive": {
+		"directory": "dist",
+		"format": "zip"
+	}
+}

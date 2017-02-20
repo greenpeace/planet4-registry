@@ -1,0 +1,27 @@
+{
+	"name": "greenpeace/planet4-registry",
+	"version": "0.1.0",
+
+	"require": {
+		"composer/installers": "~1.0.0",
+		"composer/satis": "dev-master"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"Greenpeace\\Registry\\": "classes"
+		}
+	},
+
+	"extra": {
+		"satis-file": "satis.json",
+		"satis-extended-file": "satis.extended.json",
+		"packages-directory": "packages"
+	},
+
+	"scripts": {
+		"satis": "satis build satis.extended.json public/",
+		"combine": "Greenpeace\\Registry\\Packages::extendSatisFile",
+		"build": ["@combine", "@satis"]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"name": "greenpeace/planet4-wordpress",
+	"version": "4.7.2",
+
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "greenpeace/planet4-wordpress-upstream",
+				"version": "4.7.2",
+				"url": "https://wordpress.org/",
+				"dist": {
+					"url": "https://wordpress.org/wordpress-4.7.2.zip",
+					"type": "zip"
+				},
+				"source": {
+					"type": "svn",
+					"url": "https://core.svn.wordpress.org/",
+					"reference": "tags/4.7.2"
+				}
+			}
+		}
+	],
+
+	"require": {
+		"greenpeace/planet4-wordpress-upstream": "4.7.2"
+	}
+}
