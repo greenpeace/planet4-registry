@@ -1,6 +1,6 @@
 {
 	"name": "Greenpeace Planet 4",
-	"homepage": "http://picasso.local/~tobias/Greenpeace/planet4-registry/public/",
+	"homepage": "http://127.0.0.1:9292/",
 	"repositories": [
 		{ "type": "vcs", "url": "/Users/tobias/Sites/planet4-wordpress" }
 	],
