@@ -52,3 +52,19 @@ The installation if this registry can be done in three simple steps:
 Internally this will combine the `satis.json` with the packages from the 
 `packages` folder into a `satis.extended.json`. This file will be used by 
 Satis to generate the static registry.
+
+## Example usage
+When testing this registry for the first time, you might one to clone some
+Planet 4 related repositories to have additional information inside the 
+registry.
+
+To download three examples you can execute the following Composer command:
+
+	composer run examples
+
+This will download the following three repositories into a `repositories` 
+sub-directory.
+
+	- https://github.com/greenpeace/planet4-wordpress
+	- https://github.com/greenpeace/planet4-plugin-mappress-google-maps-for-wordpress
+	- https://github.com/greenpeace/greenpeace-planet4-master-theme

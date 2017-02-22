@@ -3,3 +3,4 @@ vendor
 composer.lock
 satis.extended.json
 .DS_Store
+/repositories

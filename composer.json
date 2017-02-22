@@ -22,6 +22,11 @@
 	"scripts": {
 		"satis": "satis build satis.extended.json public/",
 		"combine": "Greenpeace\\Registry\\Packages::extendSatisFile",
-		"build": ["@combine", "@satis"]
+		"build": ["@combine", "@satis"],
+		"examples": [
+			"git clone git@github.com:greenpeace/planet4-wordpress.git repositories/planet4-wordpress.git",
+			"git clone git@github.com:greenpeace/planet4-plugin-mappress-google-maps-for-wordpress.git repositories/planet4-plugin-mappress-google-maps-for-wordpress.git",
+			"git clone git@github.com:greenpeace/greenpeace-planet4-master-theme.git repositories/greenpeace-planet4-master-theme.git"
+		]
 	}
 }

@@ -2,7 +2,9 @@
 	"name": "Greenpeace Planet 4",
 	"homepage": "http://127.0.0.1:9292/",
 	"repositories": [
-		{ "type": "vcs", "url": "/Users/tobias/Sites/planet4-wordpress" }
+		{ "type": "vcs", "url": "../repositories/planet4-wordpress" },
+		{ "type": "vcs", "url": "../repositories/planet4-plugin-mappress-google-maps-for-wordpress" },
+		{ "type": "vcs", "url": "../repositories/greenpeace-planet4-master-theme" }
 	],
 	"require-all": true,
 	"require-dependencies": true,
