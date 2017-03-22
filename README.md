@@ -44,10 +44,13 @@ without each of them having direct Composer support.
 
 ## Installation
 The installation if this registry can be done in three simple steps:
+0. Copy the `satis.json.default` file to `satis.json`
+1. Add your target domain URL in satis.json (localhost:9292 by default)
+2. Install the dependencies: `composer install`
+3. Build the static Satis registry `composer run build`
 
-1. Install the dependencies: `composer install`
-2. Build the static Satis registry `composer run build`
-3. Add the web address to a `composer.json` file to be used
+From there you can start using Add the web address to a `composer.json` file to be
+used for example in `https://github.com/greenpeace/planet4-base`
 
 Internally this will combine the `satis.json` with the packages from the 
 `packages` folder into a `satis.extended.json`. This file will be used by 
