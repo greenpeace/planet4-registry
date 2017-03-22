@@ -44,8 +44,9 @@ without each of them having direct Composer support.
 
 ## Installation
 The installation if this registry can be done in three simple steps:
+
 0. Copy the `satis.json.default` file to `satis.json`
-1. Add your target domain URL in satis.json (localhost:9292 by default)
+1. Add your target domain URL in `satis.json` (`localhost:9292` by default)
 2. Install the dependencies: `composer install`
 3. Build the static Satis registry `composer run build`
 
