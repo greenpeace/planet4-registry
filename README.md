@@ -21,7 +21,7 @@ Each repository is required to contain a `composer.json` file.
 More information about how to use this file is available inside the 
 [Satis documentation](https://getcomposer.org/doc/articles/handling-private-packages-with-satis.md#satis).
 
-### Static
+### Satis
 The Wordpress Core, many plugins and themes don't support Composer out of the
 box. To be able to use them with a satis registry we need to enhance them 
 manually. The `packages` folder of this repository contains all such 
@@ -66,9 +66,10 @@ To download three examples you can execute the following Composer command:
 
 	composer run examples
 
-This will download the following three repositories into a `repositories` 
+This will download the following four repositories into a `repositories`
 sub-directory.
 
 	- https://github.com/greenpeace/planet4-wordpress
 	- https://github.com/greenpeace/planet4-plugin-mappress-google-maps-for-wordpress
-	- https://github.com/greenpeace/greenpeace-planet4-master-theme
+	- https://github.com/greenpeace/planet4-master-theme
+	- https://github.com/greenpeace/planet4-child-theme
