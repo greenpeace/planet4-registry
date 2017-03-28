@@ -5,6 +5,9 @@ published here.
 
 It is based on [Satis](https://github.com/composer/satis).
 
+## Licence
+GPL v3 or higher. See LICENCE for more information.
+
 ## Proof of concept
 Be advised that this registry is a work in progress and the current 
 implementation of combining different sources is just a proof of concept. 
