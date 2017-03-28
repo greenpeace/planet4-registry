@@ -7,6 +7,10 @@
 		"composer/satis": "dev-master"
 	},
 
+	"require-dev": {
+		"squizlabs/php_codesniffer": "2.*"
+	},
+
 	"autoload": {
 		"psr-4": {
 			"Greenpeace\\Registry\\": "classes"
@@ -16,7 +20,8 @@
 	"extra": {
 		"satis-file": "satis.json",
 		"satis-extended-file": "satis.extended.json",
-		"packages-directory": "packages"
+		"packages-directory": "packages",
+		"repositories-directory": "repositories"
 	},
 
 	"scripts": {
@@ -24,6 +29,7 @@
 		"server": "php -S 127.0.0.1:9292 -t public",
 		"satis": "satis build satis.extended.json public/",
 		"combine": "Greenpeace\\Registry\\Packages::extendSatisFile",
+		"extract": "Greenpeace\\Registry\\Packages::extractPackagesFromRepositories",
 		"build": ["@combine", "@satis"],
 		"examples": [
 			"rm -rf repositories",
