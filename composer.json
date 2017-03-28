@@ -28,8 +28,8 @@
 		"start": ["@build", "@server"],
 		"server": "php -S 127.0.0.1:9292 -t public",
 		"satis": "satis build satis.extended.json public/",
-		"combine": "Greenpeace\\Registry\\Packages::extendSatisFile",
-		"extract": "Greenpeace\\Registry\\Packages::extractPackagesFromRepositories",
+		"combine": "Greenpeace\\Registry\\SatisFileTask::extendSatisFile",
+		"extract": "Greenpeace\\Registry\\PackageFileTask::extractFromRepositories",
 		"build": ["@combine", "@satis"],
 		"examples": [
 			"rm -rf repositories",
