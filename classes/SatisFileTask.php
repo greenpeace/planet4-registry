@@ -43,7 +43,7 @@ class SatisFileTask extends BaseTask
         // write the result into the extended file
         $result = $task->combine();
         $satisExtendedFile = $config['baseDirectory'] . $config['satisExtendedFile'];
-        if(!file_put_contents($satisExtendedFile, $result)) {
+        if (!file_put_contents($satisExtendedFile, $result)) {
             throw new Exception('Error, could not write ' . $satisExtendedFile . 'please check permissions');
         }
     }

@@ -63,10 +63,11 @@ class FileUtility
      * Create a directory if it doesn't already exist
      * @throws Exception
      */
-    public static function createDir($directory) {
+    public static function createDir($directory)
+    {
         if (!is_dir($directory)) {
             // chmod is set to read/write for current user and group
-            if(mkdir($directory, 0770)) {
+            if (mkdir($directory, 0770)) {
                 echo 'Created directory ' . $directory . "\n";
             } else {
                 $msg = 'Error, could not create directory ' . $directory . ' please check permissions.';
@@ -75,10 +76,11 @@ class FileUtility
         }
     }
 
-    public static function createFile($file, $content) {
+    public static function createFile($file, $content)
+    {
         if (!file_exists($file)) {
             $json = json_encode($content, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
-            if(file_put_contents($file, $json)) {
+            if (file_put_contents($file, $json)) {
                 echo 'Created file ' . $file . "\n";
             } else {
                 throw new Exception('Error, could not write ' . $file . ' please check permissions');
@@ -236,5 +238,4 @@ class FileUtility
 
         return array_values($result);
     }
-
 }

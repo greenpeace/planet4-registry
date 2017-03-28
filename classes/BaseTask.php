@@ -108,5 +108,4 @@ class BaseTask
         $this->packagesDirectory = $config['baseDirectory'] . $config['packagesDirectory'];
         $this->packagesDirectory = FileUtility::normalizeDirectory($this->packagesDirectory);
     }
-
 }

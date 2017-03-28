@@ -40,9 +40,9 @@ class PackageFileTask extends BaseTask
         $composerFiles = (FileUtility::getComposerFiles($config['repositoryDirectory']));
         foreach ($composerFiles as $composerFile) {
             $content = FileUtility::getFileWithPackages($composerFile);
-            if(is_array($content)) {
+            if (is_array($content)) {
                 // only care for package on that domain
-                if(preg_match('/greenpeace\/(.*)/', $content['name'], $name)) {
+                if (preg_match('/greenpeace\/(.*)/', $content['name'], $name)) {
                     $packageDirectory = FileUtility::normalizeDirectory(
                         $config['baseDirectory'] . $config['packagesDirectory'] . DIRECTORY_SEPARATOR . $name[1]
                     );
