@@ -1,9 +1,2 @@
-public
-vendor
-composer.lock
-satis.json
-satis.extended.json
 .DS_Store
-/repositories
-.idea
-
+.idea/
