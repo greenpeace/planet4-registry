@@ -69,6 +69,7 @@ class SatisFileTask extends BaseTask
             $satis['repositories'],
             FileUtility::getPackagesFromDirectory($this->packagesDirectory)
         );
+
         return json_encode($satis, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
     }
 }

@@ -89,7 +89,7 @@ class FileUtility
     }
 
     /**
-     * Read all version files from a directory.
+     * Read all composer files from a directory.
      *
      * This method will read all the version information from the given
      * directory. The result will be an array with all package files.
@@ -104,7 +104,7 @@ class FileUtility
     {
         $directory = FileUtility::normalizeDirectory($directory);
         if (!is_dir($directory)) {
-            throw new Exception('Cannot read packages from directory ' . $directory . '.');
+            throw new Exception('Cannot read composer files from directory ' . $directory . '.');
         }
 
         $result = array();
@@ -120,6 +120,46 @@ class FileUtility
             }
 
             if (substr($file, -13) != 'composer.json') {
+                continue;
+            }
+
+            $result[] = $path;
+        }
+
+        return $result;
+    }
+
+    /**
+     * Read all version files from a directory.
+     *
+     * This method will read all the version information from the given
+     * directory. The result will be an array with all package files.
+     * It will only return JSON files, and it will walk recursivly into
+     * sub-directories.
+     *
+     * @param string $directory The directory to inspect
+     * @return array The version files found inside the given directory.
+     * @throws Exception is $directory is not a directory
+     */
+    public static function getVersionFiles( $directory ) {
+        $directory = FileUtility::normalizeDirectory($directory);
+        if ( !is_dir( $directory ) ) {
+            throw new Exception( 'Cannot read packages from directory ' . $directory . '.' );
+        }
+
+        $result = array();
+        foreach( scandir( $directory ) as $file ) {
+            if ( substr( $file, 0, 1 ) == '.' ) {
+                continue;
+            }
+
+            $path = $directory . $file;
+            if ( is_dir( $path ) ) {
+                $result = array_merge( $result, FileUtility::getVersionFiles($path));
+                continue;
+            }
+
+            if ( substr( $file, -5 ) != '.json' ) {
                 continue;
             }
 
@@ -210,8 +250,8 @@ class FileUtility
     public static function getPackagesFromDirectory($directory)
     {
         $result = array();
+        $versionFiles = FileUtility::getVersionFiles($directory);
 
-        $versionFiles = FileUtility::getComposerFiles($directory);
         foreach ($versionFiles as $versionFile) {
             $result = array_merge($result, FileUtility::getPackagesFromFile($versionFile));
         }
