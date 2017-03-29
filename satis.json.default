@@ -4,7 +4,8 @@
 	"repositories": [
 		{ "type": "vcs", "url": "repositories/planet4-wordpress" },
 		{ "type": "vcs", "url": "repositories/planet4-plugin-mappress-google-maps-for-wordpress" },
-		{ "type": "vcs", "url": "repositories/greenpeace-planet4-master-theme" }
+		{ "type": "vcs", "url": "repositories/planet4-master-theme" },
+		{ "type": "vcs", "url": "repositories/planet4-child-theme" }
 	],
 	"require-all": true,
 	"require-dependencies": true,
