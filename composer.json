@@ -36,7 +36,8 @@
 			"git clone git@github.com:greenpeace/planet4-wordpress.git repositories/planet4-wordpress",
 			"git clone git@github.com:greenpeace/planet4-plugin-mappress-google-maps-for-wordpress.git repositories/planet4-plugin-mappress-google-maps-for-wordpress",
 			"git clone git@github.com:greenpeace/planet4-master-theme.git repositories/planet4-master-theme",
-			"git clone git@github.com:greenpeace/planet4-child-theme.git repositories/planet4-child-theme"
+			"git clone git@github.com:greenpeace/planet4-child-theme.git repositories/planet4-child-theme",
+            "git clone git@github.com:greenpeace/planet4-content-default.git repositories/planet4-content-default"
 		]
 	}
 }
