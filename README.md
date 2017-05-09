@@ -14,7 +14,7 @@ implementation of combining different sources is just a proof of concept.
 
 ## How does it work
 This registry is powered by two independent systems that are combined together
-with the `composer run build` script. 
+with the `composer run-script build` script. 
 
 ### VCS Support
 Inside the `satis.json` file the `repositories` section is used to define 
@@ -51,7 +51,7 @@ The installation if this registry can be done in three simple steps:
 0. Copy the `satis.json.default` file to `satis.json`
 1. Add your target domain URL in `satis.json` (`localhost:9292` by default)
 2. Install the dependencies: `composer install`
-3. Build the static Satis registry `composer run build`
+3. Build the static Satis registry `composer run-script build`
 
 From there you can start using Add the web address to a `composer.json` file to be
 used for example in `https://github.com/greenpeace/planet4-base`
@@ -67,7 +67,7 @@ registry.
 
 To download three examples you can execute the following Composer command:
 
-	composer run examples
+	composer run-script clone-repositories
 
 This will download the following four repositories into a `repositories`
 sub-directory.

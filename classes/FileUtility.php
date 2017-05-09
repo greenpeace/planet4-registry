@@ -15,6 +15,8 @@ namespace Greenpeace\Registry;
 
 use Exception;
 
+const DS = DIRECTORY_SEPARATOR;
+
 /**
  * Packages class for the composer scripts.
  */
@@ -31,7 +33,7 @@ class FileUtility
      */
     public static function normalizeDirectory($directory)
     {
-        return rtrim($directory, '\\/') . DIRECTORY_SEPARATOR;
+        return rtrim($directory, '\\/') . DS;
     }
 
     /**
@@ -112,17 +114,14 @@ class FileUtility
             if (substr($file, 0, 1) == '.') {
                 continue;
             }
-
             $path = $directory . $file;
             if (is_dir($path)) {
                 $result = array_merge($result, FileUtility::getComposerFiles($path));
                 continue;
             }
-
             if (substr($file, -13) != 'composer.json') {
                 continue;
             }
-
             $result[] = $path;
         }
 
@@ -152,20 +151,16 @@ class FileUtility
             if ( substr( $file, 0, 1 ) == '.' ) {
                 continue;
             }
-
             $path = $directory . $file;
             if ( is_dir( $path ) ) {
                 $result = array_merge( $result, FileUtility::getVersionFiles($path));
                 continue;
             }
-
             if ( substr( $file, -5 ) != '.json' ) {
                 continue;
             }
-
             $result[] = $path;
         }
-
         return $result;
     }
 
@@ -194,12 +189,10 @@ class FileUtility
             if (empty($repository['package']) || empty($repository['type']) || $repository['type'] != 'package') {
                 continue;
             }
-
             $package = $repository['package'];
             if (empty($package['name']) || empty($package['version'])) {
                 continue;
             }
-
             $identifier = $package['name'] . '@' . $package['version'];
             $result[ $identifier ] = $repository;
         }
@@ -278,4 +271,20 @@ class FileUtility
 
         return array_values($result);
     }
+
+	public static function rrmdir($dir)
+	{
+		if (is_dir($dir)) {
+			$objects = scandir($dir);
+			foreach ($objects as $object) {
+				if ($object != "." && $object != "..") {
+					if (is_dir($dir . "/" . $object))
+						self::rrmdir($dir . "/" . $object);
+					else
+						unlink($dir . "/" . $object);
+				}
+			}
+			rmdir($dir);
+		}
+	}
 }
