@@ -26,11 +26,12 @@
 	},
 
 	"scripts": {
-		"start-server": ["@build-satis", "php -S 127.0.0.1:9292 -t public"],
+        "setup": ["@create-config-file", "@clone-repositories", "@build"],
+        "build": ["@combine-satis", "@build-satis"],
 		"build-satis": "satis build satis.extended.json public/",
 		"combine-satis": "Greenpeace\\Registry\\SatisFileTask::extendSatisFile",
 		"extract-packages": "Greenpeace\\Registry\\PackageFileTask::extractFromRepositories",
 		"clone-repositories": "Greenpeace\\Registry\\RepositoriesTask::cloneRepositories",
-		"build": ["@combine-satis", "@build-satis"]
+		"create-config-file": "cp satis.json.default satis.json"
 	}
 }

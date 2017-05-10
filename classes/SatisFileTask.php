@@ -45,6 +45,8 @@ class SatisFileTask extends BaseTask
         $satisExtendedFile = $config['baseDirectory'] . $config['satisExtendedFile'];
         if (!file_put_contents($satisExtendedFile, $result)) {
             throw new Exception('Error, could not write ' . $satisExtendedFile . 'please check permissions');
+        } else {
+        	echo 'Creating satis file ' . $satisExtendedFile . PHP_EOL;
         }
     }
 

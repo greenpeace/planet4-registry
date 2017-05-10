@@ -1,33 +1,73 @@
 # Greenpeace Planet 4 Registry.
-This repository contains the Planet 4 composer registry. 
-All plugins and themes that are available inside the Planet 4 system will be
-published here. 
+In order to propose a preselection of plugin and theme as well as the Wordpress core using composer, 
+Greenpeace uses a custom registry. All plugins and themes that are available inside the Planet 4 system will be
+published here:
 
-It is based on [Satis](https://github.com/composer/satis).
+https://p4-composer-registry.greenpeace.org/
+
+This project contains the code needed to build this Planet 4 composer registry. 
+It is based on [satis](https://github.com/composer/satis) with some custom task to support themes and plugins that do not
+provide composer support.
 
 ## Licence
 GPL v3 or higher. See LICENCE for more information.
 
-## Proof of concept
-Be advised that this registry is a work in progress and the current 
-implementation of combining different sources is just a proof of concept. 
+## Prerequisite
+You need a web server able to serve html files.
+You need to be able to run PHP v5.6+ in command line.
+You need [composer](https://getcomposer.org/doc/00-intro.md) and git.
+
+## Installation
+The installation if this registry can be done in three simple steps:
+
+__Step 0. Clone this repository__
+```
+git clone https://github.com/greenpeace/planet4-registry
+```
+
+__tep 1. [Install composer](https://getcomposer.org/doc/00-intro.md) and the project dependencies__
+```
+cd planet4-registry
+composer install
+```
+__Step 2. Run the setup script__
+```
+composer run-script setup
+```
+This will do the following task:
+- Copy the default statis.json file
+- Clone the repositories for projects that do not support composer
+- Extract the zip files references from such repositories  
+- Combine the regular satis file with the extracted references
+- Build the registry static html files
+
+__Step 3. Point your virtual host configuration file to the `public` directory.__
+
+You should then in the `public` directory the html files to be served by the webserver.
+
+## Adjusting the registry url
+If you want to use another target URL for your registry than the default one
+you can edit it in `satis.json` file to be used under `homepage`. You can then
+rebuild the registry as follow:
+```
+composer run-script build
+```
 
 ## How does it work
 This registry is powered by two independent systems that are combined together
 with the `composer run-script build` script. 
 
-### VCS Support
+### List of supported registry
 Inside the `satis.json` file the `repositories` section is used to define 
-repositories that support Composer. 
-Each repository is required to contain a `composer.json` file. 
+repositories that support Composer. Each repository is required to contain a `composer.json` file. 
 
 More information about how to use this file is available inside the 
 [Satis documentation](https://getcomposer.org/doc/articles/handling-private-packages-with-satis.md#satis).
 
-### Satis
+### What are the "helpers" repositories
 The Wordpress Core, many plugins and themes don't support Composer out of the
 box. To be able to use them with a satis registry we need to enhance them 
-manually. The `packages` folder of this repository contains all such 
+manually. The `repositories` folder of this repository contains all such 
 dependencies.
 
 The folder name is the name of the dependency and it contains multiple JSON 
@@ -44,35 +84,3 @@ created and push, the CI server should collect this `composer.json` files from
 them and store them in the `packages` directory. This will make sure all new
 versions of Wordpress, the plugins and themes will appear in our registry, 
 without each of them having direct Composer support.
-
-## Installation
-The installation if this registry can be done in three simple steps:
-
-0. Copy the `satis.json.default` file to `satis.json`
-1. Add your target domain URL in `satis.json` (`localhost:9292` by default)
-2. Install the dependencies: `composer install`
-3. Build the static Satis registry `composer run-script build`
-
-From there you can start using Add the web address to a `composer.json` file to be
-used for example in `https://github.com/greenpeace/planet4-base`
-
-Internally this will combine the `satis.json` with the packages from the 
-`packages` folder into a `satis.extended.json`. This file will be used by 
-Satis to generate the static registry.
-
-## Example usage
-When testing this registry for the first time, you might one to clone some
-Planet 4 related repositories to have additional information inside the 
-registry.
-
-To download three examples you can execute the following Composer command:
-
-	composer run-script clone-repositories
-
-This will download the following four repositories into a `repositories`
-sub-directory.
-
-	- https://github.com/greenpeace/planet4-wordpress
-	- https://github.com/greenpeace/planet4-plugin-mappress-google-maps-for-wordpress
-	- https://github.com/greenpeace/planet4-master-theme
-	- https://github.com/greenpeace/planet4-child-theme

@@ -21,6 +21,7 @@ class RepositoriesTask extends BaseTask
 {
 	const DIRNAME = 'repositories';
 	const DIRPATH = __DIR__ . '/../repositories';
+	const GITURL = 'https://www.github.com/greenpeace/';
 
 	/**
 	 * Delete existing repositories and init back to default state
@@ -43,11 +44,12 @@ class RepositoriesTask extends BaseTask
 		$git = new GitWrapper();
 
 		foreach ($repos as $path => $repo) {
-			echo 'cloning git://' . $repo . PHP_EOL;
+			echo 'cloning ' . $path . PHP_EOL;
 			try {
-				$git->clone('git://' . $repo . '.git', $path);
-			} catch (GitWrapper\GitException $e) {
-				echo 'Could not clone. Abording.' . PHP_EOL . $e->getMessage();
+				$git->clone($repo . '.git', self::DIRPATH . DS . $path);
+			} catch (\GitWrapper\GitException $e) {
+				echo 'Could not clone.' . PHP_EOL . $e->getMessage();
+				return;
 			}
 		}
 	}
@@ -63,7 +65,7 @@ class RepositoriesTask extends BaseTask
 		foreach ($satis['repositories'] as $i => $repository) {
 			if (substr($repository['url'], 0, strlen('repositories')) === 'repositories') {
 				$repoName = explode(DS, $repository['url']);
-				$repoLink = $satis['repository-remote-root'] . $repoName[1];
+				$repoLink = self::GITURL . $repoName[1];
 				if (!in_array($repoLink, $repos)) {
 					$repos[$repoName[1]] = $repoLink;
 				}
