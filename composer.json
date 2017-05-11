@@ -27,9 +27,10 @@
 	},
 
 	"scripts": {
-        "setup": ["@create-config-file", "@clone-repositories", "@build"],
-        "build": ["@extract-packages", "@combine-satis", "@build-satis"],
-		"build-satis": "satis build satis.extended.json public/",
+        "setup": ["@create-config-file", "@build"],
+        "build": ["@clone-repositories", "@extract-packages", "@combine-satis", "@build-satis", "@deploy-public"],
+		"build-satis": "satis build satis.extended.json public.dist/",
+		"deploy-public": "rm -rf public; mv public.dist public;",
 		"combine-satis": "Greenpeace\\Registry\\SatisFileTask::extendSatisFile",
 		"extract-packages": "Greenpeace\\Registry\\PackageFileTask::extractFromRepositories",
 		"clone-repositories": "Greenpeace\\Registry\\RepositoriesTask::cloneRepositories",
