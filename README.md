@@ -124,6 +124,7 @@ packages, e.g. zip files associated with each supported releases of this project
 Each file should reference only one repository of the `package` type. 
 
 You can see an example of such repository for the wordpress core here:
+
 https://github.com/greenpeace/planet4-wordpress/blob/master/composer.json
 
 As [Composer cannot load repositories recursively](https://getcomposer.org/doc/faqs/why-can%27t-composer-load-repositories-recursively.md)
