@@ -22,12 +22,13 @@
 		"satis-file": "satis.json",
 		"satis-extended-file": "satis.extended.json",
 		"packages-directory": "packages",
-		"repositories-directory": "repositories"
+		"repositories-directory": "repositories",
+		"git-url": "https://www.github.com/greenpeace/"
 	},
 
 	"scripts": {
         "setup": ["@create-config-file", "@clone-repositories", "@build"],
-        "build": ["@combine-satis", "@build-satis"],
+        "build": ["@extract-packages", "@combine-satis", "@build-satis"],
 		"build-satis": "satis build satis.extended.json public/",
 		"combine-satis": "Greenpeace\\Registry\\SatisFileTask::extendSatisFile",
 		"extract-packages": "Greenpeace\\Registry\\PackageFileTask::extractFromRepositories",
