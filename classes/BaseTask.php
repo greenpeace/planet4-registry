@@ -49,6 +49,13 @@ class BaseTask
      */
     const REPOSITORY_DIRECTORY_EXTRAKEY = 'repositories-directory';
 
+	/**
+	 * The configuration key for the remote repository url
+	 *
+	 * @var string
+	 */
+	const REPOSITORY_REMOTE_URLKEY = 'repositories-remote-url';
+
     /**
      * Stores the path to the satis file.
      *
@@ -93,6 +100,10 @@ class BaseTask
         $config['repositoryDirectory'] = isset($extra[ self::REPOSITORY_DIRECTORY_EXTRAKEY ])
             ? $extra[ self::REPOSITORY_DIRECTORY_EXTRAKEY ]
             : 'repositories';
+
+		$config['repositoryRemoteUrl'] = isset($extra[ self::REPOSITORY_REMOTE_URLKEY])
+			? $extra[ self::REPOSITORY_REMOTE_URLKEY ]
+			: 'https://www.github.com/greenpeace/';
 
         return $config;
     }
