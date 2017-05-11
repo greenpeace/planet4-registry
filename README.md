@@ -81,8 +81,8 @@ More information about how to use this satis configuration file is available ins
 
 You can see two types of registry in the default file:
 ```
-		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-master-theme.git" },
-		{ "type": "vcs", "url": "repositories/planet4-wordpress" },
+{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-master-theme.git" },
+{ "type": "vcs", "url": "repositories/planet4-wordpress" },
 ```
 
 The first one is a classic git repository containing a composer file. Satis will use the tag references to present
