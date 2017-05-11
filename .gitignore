@@ -1,9 +1,13 @@
+# Project specific ignore
 public
 vendor
 composer.lock
 satis.json
 satis.extended.json
-.DS_Store
 /repositories
+/packages
+
+# System files
+.DS_Store
 .idea
 
