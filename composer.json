@@ -30,7 +30,7 @@
         "setup": ["@create-config-file", "@build"],
         "build": ["@clone-repositories", "@extract-packages", "@combine-satis", "@build-satis", "@deploy-public"],
 		"build-satis": "satis build satis.extended.json public.dist/",
-		"deploy-public": "rm -rf public; mv public.dist public;",
+		"deploy-public": "rm -rf public && mv public.dist public;",
 		"combine-satis": "Greenpeace\\Registry\\SatisFileTask::extendSatisFile",
 		"extract-packages": "Greenpeace\\Registry\\PackageFileTask::extractFromRepositories",
 		"clone-repositories": "Greenpeace\\Registry\\RepositoriesTask::cloneRepositories",
