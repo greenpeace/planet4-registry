@@ -1,0 +1,1105 @@
+{
+    "packages": {
+        "greenpeace/planet4-child-theme": {
+            "v0.1.0": {
+                "name": "greenpeace/planet4-child-theme",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/greenpeace/planet4-child-theme.git",
+                    "reference": "fe6b793c2522ba45c6e65f7e818179eaef73a5a1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-child-theme/greenpeace-planet4-child-theme-fe6b793c2522ba45c6e65f7e818179eaef73a5a1-zip-d65625.zip",
+                    "reference": "fe6b793c2522ba45c6e65f7e818179eaef73a5a1",
+                    "shasum": "982b82956cfff8b7dcb02b7065959b35d9aedc0d"
+                },
+                "require": {
+                    "wpackagist-plugin/timber-library": "0.22.*"
+                },
+                "time": "2017-03-23T07:55:43+00:00",
+                "type": "wordpress-theme",
+                "extra": {
+                    "installer-paths": {
+                        "../../plugins/{$name}/": [
+                            "wpackagist-plugin/*",
+                            "type:wordpress-plugin"
+                        ]
+                    }
+                },
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Anselm Hannemann",
+                        "email": "ahannema@greenpeace.org",
+                        "role": "Front-End Developer"
+                    }
+                ],
+                "description": "Exemplary child theme for the Planet 4 Wordpress project",
+                "support": {
+                    "issues": "https://github.com/greenpeace/greenpeace-planet4-child-theme/issues",
+                    "wiki": "https://github.com/greenpeace/greenpeace-planet4-child-theme/wiki",
+                    "source": "https://github.com/greenpeace/greenpeace-planet4-child-theme"
+                }
+            },
+            "v0.1.1": {
+                "name": "greenpeace/planet4-child-theme",
+                "version": "v0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/greenpeace/planet4-child-theme.git",
+                    "reference": "a8ac48c827ec95ed8f3beb40ee423d7a29fd6d73"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-child-theme/greenpeace-planet4-child-theme-a8ac48c827ec95ed8f3beb40ee423d7a29fd6d73-zip-a6207b.zip",
+                    "reference": "a8ac48c827ec95ed8f3beb40ee423d7a29fd6d73",
+                    "shasum": "57ea8c49fc8efc78e29a56f791338320d04916d3"
+                },
+                "require": {
+                    "wpackagist-plugin/timber-library": "0.22.*"
+                },
+                "time": "2017-03-23T07:59:07+00:00",
+                "type": "wordpress-theme",
+                "extra": {
+                    "installer-paths": {
+                        "../../plugins/{$name}/": [
+                            "wpackagist-plugin/*",
+                            "type:wordpress-plugin"
+                        ]
+                    }
+                },
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Anselm Hannemann",
+                        "email": "ahannema@greenpeace.org",
+                        "role": "Front-End Developer"
+                    }
+                ],
+                "description": "Exemple child theme for the Planet 4 Wordpress project",
+                "support": {
+                    "issues": "https://github.com/greenpeace/planet4-child-theme/issues",
+                    "wiki": "https://github.com/greenpeace/planet4-child-theme/wiki",
+                    "source": "https://github.com/greenpeace/planet4-child-theme"
+                }
+            },
+            "v0.1.2": {
+                "name": "greenpeace/planet4-child-theme",
+                "version": "v0.1.2",
+                "version_normalized": "0.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/greenpeace/planet4-child-theme.git",
+                    "reference": "bba52feb8d8bb3d80b76fb008626e853ee335cc8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-child-theme/greenpeace-planet4-child-theme-bba52feb8d8bb3d80b76fb008626e853ee335cc8-zip-3cc591.zip",
+                    "reference": "bba52feb8d8bb3d80b76fb008626e853ee335cc8",
+                    "shasum": "aaaf85882ccb3acbab3b087baeedc57096b95dd2"
+                },
+                "require": {
+                    "wpackagist-plugin/timber-library": "0.22.*"
+                },
+                "time": "2017-03-24T09:32:19+00:00",
+                "type": "wordpress-theme",
+                "extra": {
+                    "installer-paths": {
+                        "../../plugins/{$name}/": [
+                            "wpackagist-plugin/*",
+                            "type:wordpress-plugin"
+                        ]
+                    }
+                },
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Anselm Hannemann",
+                        "email": "ahannema@greenpeace.org",
+                        "role": "Front-End Developer"
+                    }
+                ],
+                "description": "Exemple child theme for the Planet 4 Wordpress project",
+                "support": {
+                    "issues": "https://github.com/greenpeace/planet4-child-theme/issues",
+                    "wiki": "https://github.com/greenpeace/planet4-child-theme/wiki",
+                    "source": "https://github.com/greenpeace/planet4-child-theme"
+                }
+            },
+            "0.2.0": {
+                "name": "greenpeace/planet4-child-theme",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/greenpeace/planet4-child-theme.git",
+                    "reference": "bb41f177e1e330cfe35aba60f482ba808a83e644"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-child-theme/greenpeace-planet4-child-theme-bb41f177e1e330cfe35aba60f482ba808a83e644-zip-f6353b.zip",
+                    "reference": "bb41f177e1e330cfe35aba60f482ba808a83e644",
+                    "shasum": "962483fce39d27124ffda232fbd9c6d9d10a6e75"
+                },
+                "require": {
+                    "wpackagist-plugin/timber-library": "0.22.*"
+                },
+                "time": "2017-04-19T14:05:38+00:00",
+                "type": "wordpress-theme",
+                "extra": {
+                    "installer-paths": {
+                        "../../plugins/{$name}/": [
+                            "wpackagist-plugin/*",
+                            "type:wordpress-plugin"
+                        ]
+                    }
+                },
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Anselm Hannemann",
+                        "email": "ahannema@greenpeace.org",
+                        "role": "Front-End Developer"
+                    }
+                ],
+                "description": "Exemple child theme for the Planet 4 Wordpress project",
+                "support": {
+                    "issues": "https://github.com/greenpeace/planet4-child-theme/issues",
+                    "wiki": "https://github.com/greenpeace/planet4-child-theme/wiki",
+                    "source": "https://github.com/greenpeace/planet4-child-theme"
+                }
+            },
+            "dev-master": {
+                "name": "greenpeace/planet4-child-theme",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/greenpeace/planet4-child-theme.git",
+                    "reference": "bb41f177e1e330cfe35aba60f482ba808a83e644"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-child-theme/greenpeace-planet4-child-theme-bb41f177e1e330cfe35aba60f482ba808a83e644-zip-f6353b.zip",
+                    "reference": "bb41f177e1e330cfe35aba60f482ba808a83e644",
+                    "shasum": "962483fce39d27124ffda232fbd9c6d9d10a6e75"
+                },
+                "require": {
+                    "wpackagist-plugin/timber-library": "0.22.*"
+                },
+                "time": "2017-04-19T14:05:38+00:00",
+                "type": "wordpress-theme",
+                "extra": {
+                    "installer-paths": {
+                        "../../plugins/{$name}/": [
+                            "wpackagist-plugin/*",
+                            "type:wordpress-plugin"
+                        ]
+                    }
+                },
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Anselm Hannemann",
+                        "email": "ahannema@greenpeace.org",
+                        "role": "Front-End Developer"
+                    }
+                ],
+                "description": "Exemple child theme for the Planet 4 Wordpress project",
+                "support": {
+                    "issues": "https://github.com/greenpeace/planet4-child-theme/issues",
+                    "wiki": "https://github.com/greenpeace/planet4-child-theme/wiki",
+                    "source": "https://github.com/greenpeace/planet4-child-theme"
+                }
+            }
+        },
+        "greenpeace/planet4-content-default": {
+            "0.1.0": {
+                "name": "greenpeace/planet4-content-default",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/greenpeace/planet4-content-default.git",
+                    "reference": "7d79e1245588f9db705391a11f9a16b73f04e5d8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-content-default/greenpeace-planet4-content-default-7d79e1245588f9db705391a11f9a16b73f04e5d8-zip-ae564e.zip",
+                    "reference": "7d79e1245588f9db705391a11f9a16b73f04e5d8",
+                    "shasum": "9560784877887c7a3132a46b86264b21642fcb44"
+                },
+                "time": "2017-04-18T10:22:52+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "authors": [
+                    {
+                        "name": "koyan",
+                        "email": "koyandianthos@gmail.com"
+                    }
+                ],
+                "description": "Scripts that control the default content of the default planet4 installation",
+                "support": {
+                    "source": "https://github.com/greenpeace/planet4-content-default/tree/v0.1.0",
+                    "issues": "https://github.com/greenpeace/planet4-content-default/issues"
+                }
+            },
+            "0.2.0": {
+                "name": "greenpeace/planet4-content-default",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/greenpeace/planet4-content-default.git",
+                    "reference": "2a6c72cd21838210bec569a700b50df24e045f4f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-content-default/greenpeace-planet4-content-default-2a6c72cd21838210bec569a700b50df24e045f4f-zip-33d3ae.zip",
+                    "reference": "2a6c72cd21838210bec569a700b50df24e045f4f",
+                    "shasum": "e4e1054832ed12390c2b954edc4d75d79a156e31"
+                },
+                "time": "2017-04-19T10:32:10+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "authors": [
+                    {
+                        "name": "koyan",
+                        "email": "koyandianthos@gmail.com"
+                    }
+                ],
+                "description": "Scripts that control the default content of the default planet4 installation",
+                "support": {
+                    "source": "https://github.com/greenpeace/planet4-content-default/tree/v0.2.0",
+                    "issues": "https://github.com/greenpeace/planet4-content-default/issues"
+                }
+            },
+            "0.2.1": {
+                "name": "greenpeace/planet4-content-default",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/greenpeace/planet4-content-default.git",
+                    "reference": "6e2d11086b465863c2b8a3b8e14264b92fae53d0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-content-default/greenpeace-planet4-content-default-6e2d11086b465863c2b8a3b8e14264b92fae53d0-zip-6a67e5.zip",
+                    "reference": "6e2d11086b465863c2b8a3b8e14264b92fae53d0",
+                    "shasum": "adc05413a95dcc51f52bdcf6b1c85d994258681a"
+                },
+                "time": "2017-04-20T06:31:11+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "authors": [
+                    {
+                        "name": "koyan",
+                        "email": "koyandianthos@gmail.com"
+                    }
+                ],
+                "description": "Scripts that control the default content of the default planet4 installation",
+                "support": {
+                    "source": "https://github.com/greenpeace/planet4-content-default/tree/v0.2.1",
+                    "issues": "https://github.com/greenpeace/planet4-content-default/issues"
+                }
+            },
+            "0.2.2": {
+                "name": "greenpeace/planet4-content-default",
+                "version": "0.2.2",
+                "version_normalized": "0.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/greenpeace/planet4-content-default.git",
+                    "reference": "43f4521ec572951aec82c0cb887a5c951122f902"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-content-default/greenpeace-planet4-content-default-43f4521ec572951aec82c0cb887a5c951122f902-zip-2180e7.zip",
+                    "reference": "43f4521ec572951aec82c0cb887a5c951122f902",
+                    "shasum": "acc9200084dbf6ea323ba8f33062ea46cc7842db"
+                },
+                "time": "2017-04-26T13:58:34+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "scripts": {
+                    "content-default": [
+                        "@core:initial-content-1",
+                        "@core:initial-content-2",
+                        "@core:initial-content-3",
+                        "@core:initial-content-4",
+                        "@core:initial-content-5",
+                        "@core:initial-content-6"
+                    ],
+                    "core:initial-content-1": [
+                        "wp post update 2 --post_title='Tech' page-tech.html"
+                    ],
+                    "core:initial-content-2": [
+                        "wp post create --post_type=page --post_status=publish --post_title='Design' page-design.html"
+                    ],
+                    "core:initial-content-3": [
+                        "wp post create --post_type=page --post_status=publish --post_title='Front' page-front.html"
+                    ],
+                    "core:initial-content-4": [
+                        "wp post create --post_type=page --post_status=publish --post_title='Content' page-content.html"
+                    ],
+                    "core:initial-content-5": [
+                        "wp option update show_on_front page"
+                    ],
+                    "core:initial-content-6": [
+                        "wp option update page_on_front 5"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "koyan",
+                        "email": "koyandianthos@gmail.com"
+                    }
+                ],
+                "description": "Scripts that control the default content of the default planet4 installation",
+                "support": {
+                    "source": "https://github.com/greenpeace/planet4-content-default/tree/v0.2.2",
+                    "issues": "https://github.com/greenpeace/planet4-content-default/issues"
+                }
+            },
+            "0.2.3": {
+                "name": "greenpeace/planet4-content-default",
+                "version": "0.2.3",
+                "version_normalized": "0.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/greenpeace/planet4-content-default.git",
+                    "reference": "677c85d6d1144348714011886b27f1b0037eddff"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-content-default/greenpeace-planet4-content-default-677c85d6d1144348714011886b27f1b0037eddff-zip-74a5db.zip",
+                    "reference": "677c85d6d1144348714011886b27f1b0037eddff",
+                    "shasum": "771215c87e85e0c10b39d7e112140728a58a6acb"
+                },
+                "time": "2017-05-12T09:25:13+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "scripts": {
+                    "content-default": [
+                        "@core:initial-content-1",
+                        "@core:initial-content-2",
+                        "@core:initial-content-3",
+                        "@core:initial-content-4",
+                        "@core:initial-content-5",
+                        "@core:initial-content-6",
+                        "@core:initial-content-7",
+                        "@core:initial-content-8",
+                        "@core:initial-content-9"
+                    ],
+                    "core:initial-content-1": [
+                        "wp post update 2 --post_title='Tech' page-tech.html"
+                    ],
+                    "core:initial-content-2": [
+                        "wp post create --post_type=page --post_status=draft --post_title='Design' page-design.html"
+                    ],
+                    "core:initial-content-3": [
+                        "wp post create --post_type=page --post_status=draft --post_title='Front' page-front.html"
+                    ],
+                    "core:initial-content-4": [
+                        "wp post create --post_type=page --post_status=draft --post_title='Content' page-content.html"
+                    ],
+                    "core:initial-content-5": [
+                        "wp option update show_on_front page"
+                    ],
+                    "core:initial-content-6": [
+                        "wp option update page_on_front 5"
+                    ],
+                    "core:initial-content-7": [
+                        "wp post update 4 --post_status=publish"
+                    ],
+                    "core:initial-content-8": [
+                        "wp post update 5 --post_status=publish"
+                    ],
+                    "core:initial-content-9": [
+                        "wp post update 6 --post_status=publish"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "koyan",
+                        "email": "koyandianthos@gmail.com"
+                    }
+                ],
+                "description": "Scripts that control the default content of the default planet4 installation",
+                "support": {
+                    "source": "https://github.com/greenpeace/planet4-content-default/tree/v0.2.3",
+                    "issues": "https://github.com/greenpeace/planet4-content-default/issues"
+                }
+            },
+            "0.2.4": {
+                "name": "greenpeace/planet4-content-default",
+                "version": "0.2.4",
+                "version_normalized": "0.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/greenpeace/planet4-content-default.git",
+                    "reference": "7ba5af77c3184284c22ba9fab62fe85326fe82c3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-content-default/greenpeace-planet4-content-default-7ba5af77c3184284c22ba9fab62fe85326fe82c3-zip-06c676.zip",
+                    "reference": "7ba5af77c3184284c22ba9fab62fe85326fe82c3",
+                    "shasum": "afaaf4c55dc2a690ef2388bb4d43e58a402f6768"
+                },
+                "time": "2017-05-29T11:14:40+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "scripts": {
+                    "content-default": [
+                        "@core:initial-content-1",
+                        "@core:initial-content-2",
+                        "@core:initial-content-3",
+                        "@core:initial-content-4",
+                        "@core:initial-content-5",
+                        "@core:initial-content-6",
+                        "@core:initial-content-7",
+                        "@core:initial-content-8",
+                        "@core:initial-content-9"
+                    ],
+                    "core:initial-content-1": [
+                        "wp post update 2 --post_title='Tech' page-tech.html"
+                    ],
+                    "core:initial-content-2": [
+                        "wp post create --post_type=page --post_status=draft --post_title='Design' page-design.html"
+                    ],
+                    "core:initial-content-3": [
+                        "wp post create --post_type=page --post_status=draft --post_title='Front' page-front.html"
+                    ],
+                    "core:initial-content-4": [
+                        "wp post create --post_type=page --post_status=draft --post_title='Content' page-content.html"
+                    ],
+                    "core:initial-content-5": [
+                        "wp option update show_on_front page"
+                    ],
+                    "core:initial-content-6": [
+                        "wp option update page_on_front 5"
+                    ],
+                    "core:initial-content-7": [
+                        "wp post update 4 --post_status=publish"
+                    ],
+                    "core:initial-content-8": [
+                        "wp post update 5 --post_status=publish"
+                    ],
+                    "core:initial-content-9": [
+                        "wp post update 6 --post_status=publish"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "koyan",
+                        "email": "koyandianthos@gmail.com"
+                    }
+                ],
+                "description": "Scripts that control the default content of the default planet4 installation",
+                "support": {
+                    "source": "https://github.com/greenpeace/planet4-content-default/tree/v0.2.4",
+                    "issues": "https://github.com/greenpeace/planet4-content-default/issues"
+                }
+            },
+            "0.2.5": {
+                "name": "greenpeace/planet4-content-default",
+                "version": "0.2.5",
+                "version_normalized": "0.2.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/greenpeace/planet4-content-default.git",
+                    "reference": "3f780c9a80c0d071b00a2afe5e6ecc08f18b72a6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-content-default/greenpeace-planet4-content-default-3f780c9a80c0d071b00a2afe5e6ecc08f18b72a6-zip-f62603.zip",
+                    "reference": "3f780c9a80c0d071b00a2afe5e6ecc08f18b72a6",
+                    "shasum": "d406d254263ba8b17947ea18a6b13f22e786bcf1"
+                },
+                "time": "2017-06-09T10:00:54+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "scripts": {
+                    "content-default": [
+                        "@core:initial-content-1",
+                        "@core:initial-content-2",
+                        "@core:initial-content-3",
+                        "@core:initial-content-4",
+                        "@core:initial-content-5",
+                        "@core:initial-content-6",
+                        "@core:initial-content-7",
+                        "@core:initial-content-8",
+                        "@core:initial-content-9"
+                    ],
+                    "core:initial-content-1": [
+                        "wp post update 2 --post_title='Tech' page-tech.html"
+                    ],
+                    "core:initial-content-2": [
+                        "wp post create --post_type=page --post_status=draft --post_title='Design' page-design.html"
+                    ],
+                    "core:initial-content-3": [
+                        "wp post create --post_type=page --post_status=draft --post_title='Front' page-front.html"
+                    ],
+                    "core:initial-content-4": [
+                        "wp post create --post_type=page --post_status=draft --post_title='Content' page-content.html"
+                    ],
+                    "core:initial-content-5": [
+                        "wp option update show_on_front page"
+                    ],
+                    "core:initial-content-6": [
+                        "wp option update page_on_front 5"
+                    ],
+                    "core:initial-content-7": [
+                        "wp post update 4 --post_status=publish"
+                    ],
+                    "core:initial-content-8": [
+                        "wp post update 5 --post_status=publish"
+                    ],
+                    "core:initial-content-9": [
+                        "wp post update 6 --post_status=publish"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "koyan",
+                        "email": "koyandianthos@gmail.com"
+                    }
+                ],
+                "description": "Scripts that control the default content of the default planet4 installation",
+                "support": {
+                    "source": "https://github.com/greenpeace/planet4-content-default/tree/v0.2.5",
+                    "issues": "https://github.com/greenpeace/planet4-content-default/issues"
+                }
+            },
+            "0.2.6": {
+                "name": "greenpeace/planet4-content-default",
+                "version": "0.2.6",
+                "version_normalized": "0.2.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/greenpeace/planet4-content-default.git",
+                    "reference": "2f592874a2fbfeced0bea8a90e51546671f2a7c2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-content-default/greenpeace-planet4-content-default-2f592874a2fbfeced0bea8a90e51546671f2a7c2-zip-6a044d.zip",
+                    "reference": "2f592874a2fbfeced0bea8a90e51546671f2a7c2",
+                    "shasum": "fcafd593ee76893bc33c2bcdbd1a75d3f945b065"
+                },
+                "time": "2017-06-09T10:04:50+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "scripts": {
+                    "content-default": [
+                        "@core:initial-content-1",
+                        "@core:initial-content-2",
+                        "@core:initial-content-3",
+                        "@core:initial-content-4",
+                        "@core:initial-content-5",
+                        "@core:initial-content-6",
+                        "@core:initial-content-7",
+                        "@core:initial-content-8",
+                        "@core:initial-content-9"
+                    ],
+                    "core:initial-content-1": [
+                        "wp post update 2 --post_title='Tech' page-tech.html"
+                    ],
+                    "core:initial-content-2": [
+                        "wp post create --post_type=page --post_status=draft --post_title='Design' page-design.html"
+                    ],
+                    "core:initial-content-3": [
+                        "wp post create --post_type=page --post_status=draft --post_title='Front' page-front.html"
+                    ],
+                    "core:initial-content-4": [
+                        "wp post create --post_type=page --post_status=draft --post_title='Content' page-content.html"
+                    ],
+                    "core:initial-content-5": [
+                        "wp option update show_on_front page"
+                    ],
+                    "core:initial-content-6": [
+                        "wp option update page_on_front 5"
+                    ],
+                    "core:initial-content-7": [
+                        "wp post update 4 --post_status=publish"
+                    ],
+                    "core:initial-content-8": [
+                        "wp post update 5 --post_status=publish"
+                    ],
+                    "core:initial-content-9": [
+                        "wp post update 6 --post_status=publish"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "koyan",
+                        "email": "koyandianthos@gmail.com"
+                    }
+                ],
+                "description": "Scripts that control the default content of the default planet4 installation",
+                "support": {
+                    "source": "https://github.com/greenpeace/planet4-content-default/tree/v0.2.6",
+                    "issues": "https://github.com/greenpeace/planet4-content-default/issues"
+                }
+            },
+            "dev-master": {
+                "name": "greenpeace/planet4-content-default",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/greenpeace/planet4-content-default.git",
+                    "reference": "2f592874a2fbfeced0bea8a90e51546671f2a7c2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-content-default/greenpeace-planet4-content-default-2f592874a2fbfeced0bea8a90e51546671f2a7c2-zip-6a044d.zip",
+                    "reference": "2f592874a2fbfeced0bea8a90e51546671f2a7c2",
+                    "shasum": "fcafd593ee76893bc33c2bcdbd1a75d3f945b065"
+                },
+                "time": "2017-06-09T10:04:50+00:00",
+                "type": "library",
+                "scripts": {
+                    "content-default": [
+                        "@core:initial-content-1",
+                        "@core:initial-content-2",
+                        "@core:initial-content-3",
+                        "@core:initial-content-4",
+                        "@core:initial-content-5",
+                        "@core:initial-content-6",
+                        "@core:initial-content-7",
+                        "@core:initial-content-8",
+                        "@core:initial-content-9"
+                    ],
+                    "core:initial-content-1": [
+                        "wp post update 2 --post_title='Tech' page-tech.html"
+                    ],
+                    "core:initial-content-2": [
+                        "wp post create --post_type=page --post_status=draft --post_title='Design' page-design.html"
+                    ],
+                    "core:initial-content-3": [
+                        "wp post create --post_type=page --post_status=draft --post_title='Front' page-front.html"
+                    ],
+                    "core:initial-content-4": [
+                        "wp post create --post_type=page --post_status=draft --post_title='Content' page-content.html"
+                    ],
+                    "core:initial-content-5": [
+                        "wp option update show_on_front page"
+                    ],
+                    "core:initial-content-6": [
+                        "wp option update page_on_front 5"
+                    ],
+                    "core:initial-content-7": [
+                        "wp post update 4 --post_status=publish"
+                    ],
+                    "core:initial-content-8": [
+                        "wp post update 5 --post_status=publish"
+                    ],
+                    "core:initial-content-9": [
+                        "wp post update 6 --post_status=publish"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "koyan",
+                        "email": "koyandianthos@gmail.com"
+                    }
+                ],
+                "description": "Scripts that control the default content of the default planet4 installation",
+                "support": {
+                    "source": "https://github.com/greenpeace/planet4-content-default/tree/v0.2.6",
+                    "issues": "https://github.com/greenpeace/planet4-content-default/issues"
+                }
+            }
+        },
+        "greenpeace/planet4-master-theme": {
+            "v0.1.0": {
+                "name": "greenpeace/planet4-master-theme",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/greenpeace/planet4-master-theme.git",
+                    "reference": "cdd6760e4684e86bad566ec8ff398ef30c8cb080"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-master-theme/greenpeace-planet4-master-theme-cdd6760e4684e86bad566ec8ff398ef30c8cb080-zip-6ebbae.zip",
+                    "reference": "cdd6760e4684e86bad566ec8ff398ef30c8cb080",
+                    "shasum": "b34d0ee1bd87cb2147bb37b6ffa4177cfb90c5b6"
+                },
+                "require": {
+                    "wpackagist-plugin/timber-library": "0.22.*"
+                },
+                "time": "2017-02-15T09:45:38+00:00",
+                "type": "wordpress-theme",
+                "extra": {
+                    "installer-paths": {
+                        "../../plugins/{$name}/": [
+                            "wpackagist-plugin/*",
+                            "type:wordpress-plugin"
+                        ]
+                    }
+                },
+                "installation-source": "dist",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "jarednova",
+                        "email": "jared@upstatement.com"
+                    },
+                    {
+                        "name": "Anselm Hannemann",
+                        "email": "ahannema@greenpeace.org",
+                        "role": "Front-End Developer"
+                    }
+                ],
+                "description": "Master theme for the Planet 4 Wordpress project",
+                "support": {
+                    "issues": "https://github.com/greenpeace/greenpeace-planet4-master-theme/issues",
+                    "wiki": "https://github.com/greenpeace/greenpeace-planet4-master-theme/wiki",
+                    "source": "https://github.com/greenpeace/greenpeace-planet4-master-theme"
+                }
+            },
+            "v0.1.1": {
+                "name": "greenpeace/planet4-master-theme",
+                "version": "v0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/greenpeace/planet4-master-theme.git",
+                    "reference": "19249745a28504e86fffbb35da30331da1772a99"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-master-theme/greenpeace-planet4-master-theme-19249745a28504e86fffbb35da30331da1772a99-zip-25ddee.zip",
+                    "reference": "19249745a28504e86fffbb35da30331da1772a99",
+                    "shasum": "429f29f5cae39cc9d1c66be113bc4bc884d83d64"
+                },
+                "require": {
+                    "wpackagist-plugin/timber-library": "0.22.*"
+                },
+                "time": "2017-03-23T07:49:34+00:00",
+                "type": "wordpress-theme",
+                "extra": {
+                    "installer-paths": {
+                        "../../plugins/{$name}/": [
+                            "wpackagist-plugin/*",
+                            "type:wordpress-plugin"
+                        ]
+                    }
+                },
+                "installation-source": "dist",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "jarednova",
+                        "email": "jared@upstatement.com"
+                    },
+                    {
+                        "name": "Anselm Hannemann",
+                        "email": "ahannema@greenpeace.org",
+                        "role": "Front-End Developer"
+                    }
+                ],
+                "description": "Master theme for the Planet 4 Wordpress project",
+                "support": {
+                    "issues": "https://github.com/greenpeace/planet4-master-theme/issues",
+                    "wiki": "https://github.com/greenpeace/planet4-master-theme/wiki",
+                    "source": "https://github.com/greenpeace/planet4-master-theme"
+                }
+            },
+            "v0.1.2": {
+                "name": "greenpeace/planet4-master-theme",
+                "version": "v0.1.2",
+                "version_normalized": "0.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/greenpeace/planet4-master-theme.git",
+                    "reference": "02fd37e625bc42853c06a6ba36550244e0630f55"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-master-theme/greenpeace-planet4-master-theme-02fd37e625bc42853c06a6ba36550244e0630f55-zip-207013.zip",
+                    "reference": "02fd37e625bc42853c06a6ba36550244e0630f55",
+                    "shasum": "6eb9bb8a2d61a7a3a5acf285e5f8fe4faae423d1"
+                },
+                "require": {
+                    "wpackagist-plugin/timber-library": "0.22.*"
+                },
+                "time": "2017-03-24T12:05:06+00:00",
+                "type": "wordpress-theme",
+                "extra": {
+                    "installer-paths": {
+                        "../../plugins/{$name}/": [
+                            "wpackagist-plugin/*",
+                            "type:wordpress-plugin"
+                        ]
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "jarednova",
+                        "email": "jared@upstatement.com"
+                    },
+                    {
+                        "name": "Anselm Hannemann",
+                        "email": "ahannema@greenpeace.org",
+                        "role": "Front-End Developer"
+                    }
+                ],
+                "description": "Master theme for the Planet 4 Wordpress project",
+                "support": {
+                    "issues": "https://github.com/greenpeace/planet4-master-theme/issues",
+                    "wiki": "https://github.com/greenpeace/planet4-master-theme/wiki",
+                    "source": "https://github.com/greenpeace/planet4-master-theme"
+                }
+            },
+            "dev-master": {
+                "name": "greenpeace/planet4-master-theme",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/greenpeace/planet4-master-theme.git",
+                    "reference": "02fd37e625bc42853c06a6ba36550244e0630f55"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-master-theme/greenpeace-planet4-master-theme-02fd37e625bc42853c06a6ba36550244e0630f55-zip-207013.zip",
+                    "reference": "02fd37e625bc42853c06a6ba36550244e0630f55",
+                    "shasum": "6eb9bb8a2d61a7a3a5acf285e5f8fe4faae423d1"
+                },
+                "require": {
+                    "wpackagist-plugin/timber-library": "0.22.*"
+                },
+                "time": "2017-03-24T12:05:06+00:00",
+                "type": "wordpress-theme",
+                "extra": {
+                    "installer-paths": {
+                        "../../plugins/{$name}/": [
+                            "wpackagist-plugin/*",
+                            "type:wordpress-plugin"
+                        ]
+                    }
+                },
+                "installation-source": "source",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "jarednova",
+                        "email": "jared@upstatement.com"
+                    },
+                    {
+                        "name": "Anselm Hannemann",
+                        "email": "ahannema@greenpeace.org",
+                        "role": "Front-End Developer"
+                    }
+                ],
+                "description": "Master theme for the Planet 4 Wordpress project",
+                "support": {
+                    "issues": "https://github.com/greenpeace/planet4-master-theme/issues",
+                    "wiki": "https://github.com/greenpeace/planet4-master-theme/wiki",
+                    "source": "https://github.com/greenpeace/planet4-master-theme"
+                }
+            }
+        },
+        "greenpeace/planet4-plugin-mappress-google-maps-for-wordpress-upstream": {
+            "2.43.10": {
+                "name": "greenpeace/planet4-plugin-mappress-google-maps-for-wordpress-upstream",
+                "version": "2.43.10",
+                "version_normalized": "2.43.10.0",
+                "source": {
+                    "type": "svn",
+                    "url": "https://plugins.svn.wordpress.org/mappress-google-maps-for-wordpress/",
+                    "reference": "tags/2.43.10"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-plugin-mappress-google-maps-for-wordpress-upstream/greenpeace-planet4-plugin-mappress-google-maps-for-wordpress-upstream-2.43.10-93e674.zip",
+                    "reference": "tags/2.43.10",
+                    "shasum": "96d6fa18f8d9786f9023af7305565e91f9081cf1"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "dist"
+            }
+        },
+        "greenpeace/planet4-wordpress": {
+            "4.7.2": {
+                "name": "greenpeace/planet4-wordpress",
+                "version": "4.7.2",
+                "version_normalized": "4.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "repositories/planet4-wordpress",
+                    "reference": "ab9267501bc116f1efae30bc6bda650682cd13ab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-wordpress/greenpeace-planet4-wordpress-4.7.2-c12b8e.zip",
+                    "reference": "ab9267501bc116f1efae30bc6bda650682cd13ab",
+                    "shasum": "89b7f13c341adea95c92e3794bff2cd939a13684"
+                },
+                "require": {
+                    "greenpeace/planet4-wordpress-upstream": "4.7.2"
+                },
+                "time": "2017-02-22T13:04:05+00:00",
+                "type": "library",
+                "installation-source": "source"
+            },
+            "4.7.3": {
+                "name": "greenpeace/planet4-wordpress",
+                "version": "4.7.3",
+                "version_normalized": "4.7.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "repositories/planet4-wordpress",
+                    "reference": "c8063d28b30cb70f929b15bf5d1c1a11e94bce9c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-wordpress/greenpeace-planet4-wordpress-4.7.3-cf992e.zip",
+                    "reference": "c8063d28b30cb70f929b15bf5d1c1a11e94bce9c",
+                    "shasum": "8f49456516a25cc8a08b4bc00801e57d757d394e"
+                },
+                "require": {
+                    "greenpeace/planet4-wordpress-upstream": "4.7.3"
+                },
+                "time": "2017-03-27T05:43:05+00:00",
+                "type": "library",
+                "installation-source": "source"
+            },
+            "4.7.5": {
+                "name": "greenpeace/planet4-wordpress",
+                "version": "4.7.5",
+                "version_normalized": "4.7.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "repositories/planet4-wordpress",
+                    "reference": "e655d39de2f4fac181d0409ba9f33733d28ac2b6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-wordpress/greenpeace-planet4-wordpress-4.7.5-4dd208.zip",
+                    "reference": "e655d39de2f4fac181d0409ba9f33733d28ac2b6",
+                    "shasum": "96f0f9574d020453d6a981454d710103de2a2e9c"
+                },
+                "require": {
+                    "greenpeace/planet4-wordpress-upstream": "4.7.5"
+                },
+                "time": "2017-05-18T07:57:22+00:00",
+                "type": "library",
+                "installation-source": "source"
+            },
+            "4.8": {
+                "name": "greenpeace/planet4-wordpress",
+                "version": "4.8",
+                "version_normalized": "4.8.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "repositories/planet4-wordpress",
+                    "reference": "fc61b288b1d88346b9908b4d81f2dd709d02b3ea"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-wordpress/greenpeace-planet4-wordpress-4.8-545b82.zip",
+                    "reference": "fc61b288b1d88346b9908b4d81f2dd709d02b3ea",
+                    "shasum": "67d85e8148f3d8d62fc738dd4d7af561f249bd23"
+                },
+                "require": {
+                    "greenpeace/planet4-wordpress-upstream": "4.8"
+                },
+                "time": "2017-06-09T10:09:54+00:00",
+                "type": "library",
+                "installation-source": "source"
+            },
+            "dev-master": {
+                "name": "greenpeace/planet4-wordpress",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "repositories/planet4-wordpress",
+                    "reference": "fc61b288b1d88346b9908b4d81f2dd709d02b3ea"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-wordpress/greenpeace-planet4-wordpress-dev-master-545b82.zip",
+                    "reference": "fc61b288b1d88346b9908b4d81f2dd709d02b3ea",
+                    "shasum": "5b2332f66c040ebc7e1a9c7afdd8f07b0d416ad5"
+                },
+                "require": {
+                    "greenpeace/planet4-wordpress-upstream": "4.8"
+                },
+                "time": "2017-06-09T10:09:54+00:00",
+                "type": "library",
+                "installation-source": "source"
+            }
+        },
+        "greenpeace/planet4-wordpress-upstream": {
+            "4.7.3": {
+                "name": "greenpeace/planet4-wordpress-upstream",
+                "version": "4.7.3",
+                "version_normalized": "4.7.3.0",
+                "source": {
+                    "type": "svn",
+                    "url": "https://core.svn.wordpress.org/",
+                    "reference": "tags/4.7.3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-wordpress-upstream/greenpeace-planet4-wordpress-upstream-4.7.3-94e5f8.zip",
+                    "reference": "tags/4.7.3",
+                    "shasum": "2135fab03e74e732b405b37937d1c97bf3307f2c"
+                },
+                "type": "library",
+                "installation-source": "dist"
+            },
+            "4.8": {
+                "name": "greenpeace/planet4-wordpress-upstream",
+                "version": "4.8",
+                "version_normalized": "4.8.0.0",
+                "source": {
+                    "type": "svn",
+                    "url": "https://core.svn.wordpress.org/",
+                    "reference": "tags/4.8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-wordpress-upstream/greenpeace-planet4-wordpress-upstream-4.8-002038.zip",
+                    "reference": "tags/4.8",
+                    "shasum": "a939f8700fec0c6c8757b78a490731446fc55e0b"
+                },
+                "type": "library",
+                "installation-source": "dist"
+            }
+        }
+    }
+}
