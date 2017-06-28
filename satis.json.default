@@ -12,6 +12,6 @@
 	"require-dev-dependencies": true,
 	"archive": {
 		"directory": "dist",
-		"format": "zip"
+		"format": "tar"
 	}
 }

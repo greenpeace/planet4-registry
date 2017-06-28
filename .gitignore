@@ -1,5 +1,6 @@
 # Project specific ignore
 public
+public.dist
 vendor
 composer.lock
 satis.json
