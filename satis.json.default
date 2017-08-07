@@ -6,7 +6,7 @@
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-master-theme.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-child-theme.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-content-default.git" },
-		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-engagingnetworks.git" }
+		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-engagingnetworks.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-action-content-type.git" }
 	],
 	"require-all": true,
