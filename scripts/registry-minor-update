@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Full path to composer registry install
+REGISTRY_PATH="/data/registry"
+
+cd "$REGISTRY_PATH"
+/usr/local/bin/composer run-script --timeout 600 build

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Full path to composer registry install
+REGISTRY_PATH="/data/registry"
+
+cd "$REGISTRY_PATH"
+/bin/git fetch --all
+/bin/git reset --hard origin/master
+/usr/local/bin/composer update
+/usr/local/bin/composer run-script setup

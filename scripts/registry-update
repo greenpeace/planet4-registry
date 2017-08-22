@@ -1,0 +1,34 @@
+#!/bin/sh
+
+[ -z "$1" ] && echo "Usage $0 <command>" && exit
+COMPOSER_CMD="$1"
+
+# Registry user
+RUSER="reguser"
+# Full path to the composer registry install
+REGISTRY_PATH="/data/registry"
+# Webroot is set to /public folder in composer registry install directory
+WEBROOT="$REGISTRY_PATH/public"
+# Scl command
+SCL_CMD="/bin/scl"
+# Scl environment to use 
+SCL_PARAMS="enable rh-php70"
+# letsencrypt vars
+LETSENCRYPT=true
+LE_PATH=".well-known/acme-challenge"
+LE_USER="letsencrypt"
+
+echo ; date
+cd "$REGISTRY_PATH"
+if $LETSENCRYPT ; then
+    rm -rf "$WEBROOT/${LE_PATH%%/*}"
+fi
+/bin/sudo -u "$RUSER" "$SCL_CMD" $SCL_PARAMS "$COMPOSER_CMD"
+if $LETSENCRYPT ; then
+    /bin/mkdir -p "$WEBROOT/$LE_PATH"
+    /bin/chown -R "$LE_USER". "$WEBROOT/${LE_PATH%%/*}"
+fi
+/sbin/selinuxenabled
+if [ $? -eq 0 ] ; then
+    /sbin/restorecon -Rv "$WEBROOT"
+fi
