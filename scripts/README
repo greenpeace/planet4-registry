@@ -1,7 +1,8 @@
 
 Registry composer update scripts. 
 
-The main script (registry-update) simply sets environment and takes care of the letsencrypt folders. It executes the script passed as the parameter as a (registry) specific user. It should be run as root if LETSENCRYPT is set to true as the letsencrypt folders are owned by a different user. It will also take care of selinux side of things, if selinux is enabled.
+The main script (registry-update) is a wrapper for use of scl and managing letsencrypt folders. 
+It executes the script passed as the parameter as a (registry) specific user. It should be run as root if LETSENCRYPT is set to true as the letsencrypt folders are owned by a different user. 
 This script assumes that webroot is a public/ folder in composer directory. It also assumes that letsencrypt, if used, is setup to use webroot for domain confirmation.
 Scl is used since composer requires newer version of php than the one that comes with RH 7. See RH software collections for more info.
 
@@ -9,4 +10,6 @@ Minor update script (registry-minor-update) builds the composer registry with ne
 
 Major update script (registry-major-update) fully rebuilds the composer registry including itself. 
 
-The scripts are run from cron but might be moved to a CI server in the future.
+Note that if scl and letsencrypt are not used then there is no need for the wrapper (registry-update) script. Registry-minor-update and registry-major-update can be scheduled to be executed as the registry specific user.
+
+The scripts are run from cron but execution might be moved to a CI server in the future.

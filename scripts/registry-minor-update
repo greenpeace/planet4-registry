@@ -2,6 +2,12 @@
 
 # Full path to composer registry install
 REGISTRY_PATH="/data/registry"
+# Webroot is set to /public folder in composer registry install directory
+WEBROOT="$REGISTRY_PATH/public"
 
 cd "$REGISTRY_PATH"
 /usr/local/bin/composer run-script --timeout 600 build
+/sbin/selinuxenabled
+if [ $? -eq 0 ] ; then
+    /sbin/restorecon -Rv "$WEBROOT"
+fi

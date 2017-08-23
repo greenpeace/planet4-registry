@@ -30,5 +30,5 @@ if $LETSENCRYPT ; then
 fi
 /sbin/selinuxenabled
 if [ $? -eq 0 ] ; then
-    /sbin/restorecon -Rv "$WEBROOT"
+    /sbin/restorecon -Rv "$WEBROOT/${LE_PATH%%/*}"
 fi
