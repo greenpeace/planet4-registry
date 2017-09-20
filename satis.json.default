@@ -3,14 +3,14 @@
 	"homepage": "https://p4-composer-registry.greenpeace.org/",
 	"repositories": [
 		{ "type": "vcs", "url": "repositories/planet4-wordpress" },
+		{ "type": "vcs", "url": "repositories/planet4-plugin-saml-20-single-sign-on" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-master-theme.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-child-theme.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-content-default.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-engagingnetworks.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-action-content-type.git" },
 		{ "type": "vcs", "url": "https://github.com/wp-shortcake/shortcake.git" },
-		{ "type": "vcs", "url": "https://github.com/CMB2/CMB2.git" },
-		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-saml-20-single-sign-on.git" }
+		{ "type": "vcs", "url": "https://github.com/CMB2/CMB2.git" }
 	],
 	"require-all": true,
 	"require-dependencies": true,
