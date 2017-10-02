@@ -10,6 +10,7 @@
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-engagingnetworks.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-action-content-type.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-blocks.git" },
+		{ "type": "vcs", "url": "https://github.com/greenpeace/search.git" },
 		{ "type": "vcs", "url": "https://github.com/wp-shortcake/shortcake.git" },
 		{ "type": "vcs", "url": "https://github.com/pantheon-systems/wp-saml-auth.git" },
 		{ "type": "vcs", "url": "https://github.com/CMB2/CMB2.git" }
