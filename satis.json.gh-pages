@@ -3,6 +3,7 @@
 	"homepage": "https://greenpeace.github.io/planet4-registry/",
 	"repositories": [
 		{ "type": "vcs", "url": "repositories/planet4-wordpress" },
+		{ "type": "vcs", "url": "repositories/planet4-plugin-google-apps-login" },
 		{ "type": "vcs", "url": "repositories/planet4-plugin-saml-20-single-sign-on" },
 		{ "type": "vcs", "url": "repositories/planet4-plugin-searchwp" },
 		{ "type": "vcs", "url": "repositories/planet4-plugin-wpimport" },
@@ -21,7 +22,7 @@
 	],
 	"require-all": true,
 	"require-dependencies": true,
-  "require-dev-dependencies": true,
+    "require-dev-dependencies": true,
 	"archive": {
 		"directory": "dist",
 		"format": "tar"

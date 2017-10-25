@@ -3,6 +3,7 @@
 	"homepage": "https://p4-composer-registry.greenpeace.org/",
 	"repositories": [
 		{ "type": "vcs", "url": "repositories/planet4-wordpress" },
+		{ "type": "vcs", "url": "repositories/planet4-plugin-google-apps-login" },
 		{ "type": "vcs", "url": "repositories/planet4-plugin-saml-20-single-sign-on" },
 		{ "type": "vcs", "url": "repositories/planet4-plugin-searchwp" },
 		{ "type": "vcs", "url": "repositories/planet4-plugin-wpimport" },
@@ -13,6 +14,7 @@
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-engagingnetworks.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-action-content-type.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-blocks.git" },
+		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-searchwp.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-migrated-urls.git" },
 		{ "type": "vcs", "url": "https://github.com/wp-shortcake/shortcake.git" },
 		{ "type": "vcs", "url": "https://github.com/pantheon-systems/wp-saml-auth.git" },
