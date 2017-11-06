@@ -8,6 +8,7 @@
 		{ "type": "vcs", "url": "repositories/planet4-plugin-searchwp" },
 		{ "type": "vcs", "url": "repositories/planet4-plugin-wpimport" },
 		{ "type": "vcs", "url": "repositories/planet4-plugin-varnish-http-purge" },
+		{ "type": "vcs", "url": "https://github.com/pantheon-systems/wp-redis.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-master-theme.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-child-theme.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-content-default.git" },

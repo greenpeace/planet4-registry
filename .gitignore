@@ -12,3 +12,7 @@ satis.extended.json
 .DS_Store
 .idea
 
+
+logs/access_log
+
+logs/error_log
