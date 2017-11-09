@@ -17,6 +17,7 @@
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-engagingnetworks.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-action-content-type.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-blocks.git" },
+		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-images.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-searchwp.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-migrated-urls.git" },
 		{ "type": "vcs", "url": "https://github.com/wp-shortcake/shortcake.git" },
