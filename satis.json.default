@@ -3,7 +3,6 @@
 	"homepage": "https://p4-composer-registry.greenpeace.org/",
 	"repositories": [
 		{ "type": "vcs", "url": "repositories/planet4-wordpress" },
-		{ "type": "vcs", "url": "repositories/planet4-plugin-saml-20-single-sign-on" },
 		{ "type": "vcs", "url": "repositories/planet4-plugin-searchwp" },
 		{ "type": "vcs", "url": "repositories/planet4-plugin-wpimport" },
 		{ "type": "vcs", "url": "repositories/planet4-plugin-varnish-http-purge" },
@@ -11,15 +10,10 @@
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-child-theme.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-content-default.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-engagingnetworks.git" },
-		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-action-content-type.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-blocks.git" },
-		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-images.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-searchwp.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-migrated-urls.git" },
-		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-wpcom-thumbnail-editor.git" },
-		{ "type": "vcs", "url": "https://github.com/wp-shortcake/shortcake.git" },
-		{ "type": "vcs", "url": "https://github.com/pantheon-systems/wp-saml-auth.git" },
-		{ "type": "vcs", "url": "https://github.com/CMB2/CMB2.git" }
+		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-wpcom-thumbnail-editor.git" }
 	],
 	"require-all": true,
 	"require-dependencies": true,
