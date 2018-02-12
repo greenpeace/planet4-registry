@@ -12,8 +12,7 @@
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-engagingnetworks.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-blocks.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-searchwp.git" },
-		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-migrated-urls.git" },
-		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-wpcom-thumbnail-editor.git" }
+		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-migrated-urls.git" }
 	],
 	"require-all": true,
 	"require-dependencies": true,
