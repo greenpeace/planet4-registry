@@ -5,11 +5,6 @@
 		{ "type": "vcs", "url": "repositories/planet4-wordpress" },
 		{ "type": "vcs", "url": "repositories/planet4-plugin-searchwp" },
 		{ "type": "vcs", "url": "repositories/planet4-plugin-wpimport" },
-		{ "type": "vcs", "url": "repositories/planet4-plugin-varnish-http-purge" },
-		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-child-theme.git" },
-		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-content-default.git" },
-		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-engagingnetworks.git" },
-		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-blocks.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-searchwp.git" },
 		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-migrated-urls.git" }
 	],
