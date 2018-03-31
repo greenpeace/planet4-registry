@@ -2,11 +2,7 @@
 	"name": "Greenpeace Planet 4",
 	"homepage": "https://p4-composer-registry.greenpeace.org/",
 	"repositories": [
-		{ "type": "vcs", "url": "repositories/planet4-wordpress" },
-		{ "type": "vcs", "url": "repositories/planet4-plugin-searchwp" },
-		{ "type": "vcs", "url": "repositories/planet4-plugin-wpimport" },
-		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-searchwp.git" },
-		{ "type": "vcs", "url": "https://github.com/greenpeace/planet4-plugin-migrated-urls.git" }
+		{ "type": "vcs", "url": "repositories/planet4-plugin-wpimport" }
 	],
 	"require-all": true,
 	"require-dependencies": true,
